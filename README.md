@@ -97,6 +97,19 @@ report = evaluator.generate_report(results)
 - Development of enhanced protection mechanisms
 - Comparative security analysis
 
+## Running Tests with Real APIs
+
+To run tests with real APIs (e.g., Anthropic Claude), set your API key as an environment variable:
+
+```bash
+export ANTHROPIC_API_KEY="your-api-key-here"
+python test_outputs/anthropic_test.py
+```
+
+View the generated results and visualizations in:
+- `test_outputs/results/` - JSON test results
+- `test_outputs/visualizations/` - Performance charts
+
 ## Contribution Guidelines
 
 We welcome contributions from security researchers:
